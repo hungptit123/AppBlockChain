@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hung",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "await": "^0.2.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "infinito-notification": "git+https://github.com/infinityblockchainlabs/node-infinito-notification.git",
+    "node-infinito-api": "git+https://github.com/infinityblockchainlabs/node-infinito-api.git",
+    "node-infinito-wallet": "git+https://github.com/infinityblockchainlabs/node-infinito-wallet.git",
+    "node-libs-browser": "^2.1.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

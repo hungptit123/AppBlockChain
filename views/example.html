@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo Socket IO</title>
+<!-- Dường dẫn vào file public rồi tìm file jquery.js -->
+<script src="jquery.js"></script>
+<!-- // Gọi thư viện lên server -->
+<script src="socket.io/socket.io.js"></script>
+<script>
+	// code conection từ client lên server
+var socket = io("http://localhost:8080");
+
+	// html chạy từ trên xuống dưới nhưng mà chạy hết tất cả xong mới vào đây chạy
+	$(document).ready(function () {
+		alert("Hellow jquery");
+	});
+</script>
+</head>
+<body>
+	Hellow world.
+</body>
+</html>
